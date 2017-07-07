@@ -324,3 +324,6 @@ MSM_VIDC_TARGET_LIST := msm8952
 
 $(call inherit-product, device/xiaomi/kenzo/utils.mk)
 
+# for off charging mode
+PRODUCT_PACKAGES += \
+    healthd_xiaomi
