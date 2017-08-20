@@ -184,7 +184,7 @@ function get-set-forall() {
     write /sys/class/timed_output/vibrator/vtg_level 1800
 
     # Set scheduler
-    write /sys/block/mmcblk0/queue/scheduler noop
+    write /sys/block/mmcblk0/queue/scheduler maple
 
     # enable Audio High Performance Mode
     echo 1 > /sys/module/snd_soc_msm8x16_wcd/parameters/high_perf_mode
