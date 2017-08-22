@@ -161,7 +161,8 @@ PRODUCT_COPY_FILES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    lights.msm8952
+    lights.msm8952 \
+    android.hardware.light@2.0-impl
 
 # GPS
 PRODUCT_PACKAGES += \
