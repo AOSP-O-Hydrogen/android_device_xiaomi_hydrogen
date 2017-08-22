@@ -172,6 +172,10 @@ PRODUCT_PACKAGES += \
     lights.msm8952 \
     android.hardware.light@2.0-impl
 
+# GNSS HAL
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0-impl
+
 # GPS
 PRODUCT_PACKAGES += \
     com.android.location.provider \
