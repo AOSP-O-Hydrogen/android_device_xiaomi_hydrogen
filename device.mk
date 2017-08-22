@@ -263,7 +263,9 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap \
-    camera.msm8952
+    camera.msm8952 \
+    camera.device@3.2-impl \
+    android.hardware.camera.provider@2.4-impl
 
 # Fingerprint
 PRODUCT_PACKAGES += \
