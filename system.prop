@@ -204,6 +204,9 @@ audio.dolby.ds2.enabled=true
 persist.speaker.prot.enable=true
 qcom.hw.aac.encoder=true
 
+# Media
+persist.media.treble_omx=false
+
 # Selects CoreSight configuration to enable
 persist.debug.coresight.config=stm-events
 
