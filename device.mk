@@ -311,7 +311,8 @@ PRODUCT_PACKAGES += \
     libril_proxy \
     librmnetctl \
     libxml2 \
-    Stk
+    Stk \
+    android.hardware.radio@1.0-impl
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/mbn_ota.txt:system/etc/mbn_ota.txt
