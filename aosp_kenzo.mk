@@ -39,4 +39,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="kenzo-user 6.0.1 MMB29M V8.2.1.0.MHOCNDL release-keys"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := kenzo,kate
+#TARGET_OTA_ASSERT_DEVICE := kenzo,kate
