@@ -378,4 +378,4 @@ $(call inherit-product, device/xiaomi/kenzo/utils.mk)
 
 # for off charging mode
 PRODUCT_PACKAGES += \
-    healthd_xiaomi
+    #healthd_xiaomi
