@@ -148,16 +148,12 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.allocator@2.0-impl \
-    android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.composer@2.1-impl \
-    android.hardware.graphics.mapper@2.0-impl \
-    android.hardware.memtrack@1.0-impl \
+    copybit.msm8952 \
     gralloc.msm8952 \
     hdmi_cec.msm8952 \
     hwcomposer.msm8952 \
     memtrack.msm8952 \
-    libgenlock 
+    liboverlay
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/display/calib.cfg:system/etc/calib.cfg \
@@ -348,10 +344,6 @@ PRODUCT_PACKAGES += \
     libbson \
     libcnefeatureconfig \
     libtinyxml
-
-# RenderScript HAL
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
 
 # Telephony packages
 PRODUCT_PACKAGES += \
