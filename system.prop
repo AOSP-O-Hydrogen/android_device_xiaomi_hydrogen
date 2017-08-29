@@ -214,6 +214,8 @@ ro.vendor.extension_library=libqti-perfd-client.so
 
 # Enable fingerprint
 persist.qfp=false
+# Fingerprint
+ro.hardware.fingerprint=fpc
 
 # Enable B service adj transition by default
 ro.sys.fw.bservice_enable=true

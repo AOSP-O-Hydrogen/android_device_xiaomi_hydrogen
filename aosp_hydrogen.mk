@@ -26,18 +26,18 @@ $(call inherit-product-if-exists, vendor/aosp/config.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_kenzo
-PRODUCT_DEVICE := kenzo
+PRODUCT_NAME := aosp_hydrogen
+PRODUCT_DEVICE := hydrogen
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 3
+PRODUCT_MODEL := Mi Max
 PRODUCT_MANUFACTURER := xiaomi
 
-$(call inherit-product, device/xiaomi/kenzo/device.mk)
-$(call inherit-product-if-exists, vendor/xiaomi/kenzo/device-vendor.mk)
+$(call inherit-product, device/xiaomi/hydrogen/device.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/hydrogen/device-vendor.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-keys \
-    PRIVATE_BUILD_DESC="kenzo-user 6.0.1 MMB29M V8.2.1.0.MHOCNDL release-keys"
+    BUILD_FINGERPRINT=Xiaomi/hydrogen/hydrogen:6.0.1/MMB29M/V8.2.3.0.MBCCNDL:user/release-keys \
+    PRIVATE_BUILD_DESC="hydrogen-user 6.0.1 MMB29M V8.2.3.0.MBCCNDL release-keys"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := kenzo,kate
+TARGET_OTA_ASSERT_DEVICE := hydrogen,helium
